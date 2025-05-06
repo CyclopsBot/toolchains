@@ -4,6 +4,7 @@ clang-cl
 clang-cpp
 clang++
 clang-tblgen
+clang-tidy
 lld
 ld.lld
 ld64.lld
