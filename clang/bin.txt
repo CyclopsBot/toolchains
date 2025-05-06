@@ -1,6 +1,7 @@
 clang
 clang-$clang_major
 clang-cl
+clang-format
 clang-cpp
 clang++
 clang-tblgen
