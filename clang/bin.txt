@@ -4,6 +4,7 @@ clang-cl
 clang-format
 clang-cpp
 clang++
+clangd
 clang-tblgen
 clang-tidy
 lld
