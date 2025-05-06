@@ -14,7 +14,7 @@ on:
         type: choice
         options:
           - blacksmith-16vcpu-ubuntu-2204
-          - toolchains-ubuntu-22.04-arm
+          - blacksmith-4vcpu-ubuntu-2204
       cpu_target:
         description: "Type of CPU to optimize for. (-mcpu)"
         type: string
