@@ -13,7 +13,7 @@ on:
         description: "Type of runner to use/architecture to build for."
         type: choice
         options:
-          - depot-ubuntu-24.04-16
+          - depot-ubuntu-24.04-64
           - blacksmith-4vcpu-ubuntu-2204
       cpu_target:
         description: "Type of CPU to optimize for. (-mcpu)"
@@ -36,7 +36,7 @@ name: Linux Clang
 jobs:
   build_clang:
     name: build clang ${{ inputs.runner }}
-    runs-on: depot-ubuntu-24.04-16
+    runs-on: depot-ubuntu-24.04-64
     permissions:
       contents: write
     steps:
