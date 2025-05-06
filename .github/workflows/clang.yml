@@ -36,7 +36,7 @@ name: Linux Clang
 jobs:
   build_clang:
     name: build clang ${{ inputs.runner }}
-    runs-on: ${{ inputs.runner }}
+    runs-on: blacksmith-16vcpu-ubuntu-2204
     permissions:
       contents: write
     steps:
