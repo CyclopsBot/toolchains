@@ -112,6 +112,7 @@ cmake --build build --target \
     llvm-nm \
     clang-tidy \
     clang-format \
+    clangd \
     llvm-objcopy \
     llvm-objdump \
     llvm-profdata \
