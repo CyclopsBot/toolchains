@@ -110,6 +110,8 @@ cmake --build build --target \
     llvm-dwarfdump \
     llvm-libtool-darwin \
     llvm-nm \
+    clang-tidy \
+    clang-format \
     llvm-objcopy \
     llvm-objdump \
     llvm-profdata \
